@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="125.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="creado" layoutX="28.0" layoutY="110.0" mnemonicParsing="false" onAction="#accion" prefHeight="25.0" prefWidth="110.0" text="Crear" />
+      <Label layoutX="25.0" layoutY="67.0" text="Nombre" />
+      <TextField fx:id="archivo" layoutX="78.0" layoutY="63.0" prefHeight="25.0" prefWidth="180.0" />
+      <RadioButton fx:id="directorio" layoutX="267.0" layoutY="67.0" mnemonicParsing="false" onAction="#BotonDirectorio" text="Crear un directorio" />
+      <TextField fx:id="carpeta" disable="true" editable="false" layoutX="395.0" layoutY="63.0" prefHeight="25.0" prefWidth="180.0" />
+      <Button fx:id="limpiar" layoutX="168.0" layoutY="110.0" mnemonicParsing="false" onAction="#accion" prefHeight="25.0" prefWidth="110.0" text="Limpiar" />
+   </children>
+</Pane>
